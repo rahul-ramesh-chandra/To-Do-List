@@ -1,0 +1,101 @@
+body, .container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+    background-color: rgb(134, 189, 248);
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.dark-mode, .dark-mode .container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(251, 252, 253);
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px solid #ccc;
+    width: 80%;
+    margin-right: 10px;
+}
+
+body div button{
+    padding: 8px 20px;
+    background-color: #181a83;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: none;
+}
+
+body div button:hover, div button:hover {
+    background-color: #4673c7;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li{
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dark-mode li {
+    padding: 10px;
+    background-color: rgb(119, 114, 114);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+}
+
+.delete-todo-btn, .dark-mode .delete-todo-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.delete-todo-btn:hover, .dark-mode .delete-todo-btn:hover {
+    background-color: rgb(177, 3, 3);
+}
+
+body button {
+    border-radius: 5px;
+    margin: 2px 6px 5px 6px;
+}
+body button:hover {
+    background-color: #8d8989;
+}
